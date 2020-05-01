@@ -1,0 +1,150 @@
+*       {
+			margin: 0; 
+			padding: 0;
+			box-sizing: border-box;
+			
+			}
+			
+		body {
+			background-color: #B8860B;
+           }
+
+			
+		#wrapper {
+					max-width: 1000px;
+                    height: 100%;
+					margin: 0 auto;
+					background-color: white;
+					max-height: 100%;
+            }
+  
+		header img {
+						width:100%;
+						display: block;  
+		}
+			img{
+            max-width: 100%;
+            margin: 0;
+}
+			
+		.home.main p {
+				text-align:justify;
+				line-height: 25px;
+				font-size: 18px;
+				padding:15px 0;
+		}
+			nav {
+				overflow: hidden;
+			}	
+  
+		
+		nav a {
+		
+			    display: block;
+				width: 25%;
+				float: left;
+				color:white;
+				text-decoration: none;
+				text-align: center;
+				background-color : springgreen;
+				padding:15px 30px ;
+				transition:all 1s ease;
+				font-family: 'Raleway', sans-serif;
+				
+			}
+  
+		nav a:hover {
+	 
+							background-color: firebrick;
+							cursor:pointer;
+			}
+			
+			section img{
+				max-width: 100%;
+			}
+			
+		 h1 {
+			font-size:40px;
+			text-align:center;
+			width: auto;
+			margin: 0 10%;
+			padding-bottom: 15px;
+			margin-bottom: 20px;
+			border-bottom: 2px solid firebrick;
+			font-family: 'Bebas Neue', cursive;
+			}
+		h2{
+			font-size:35px;
+			text-align: center;
+			width: auto;
+			margin: 15px 10px;
+			font-family: 'Bebas Neue', cursive;
+		}
+		
+		h3{
+		  font-size: 25px;
+		  font-family: 'Bebas Neue', cursive;
+		  
+		}
+		
+		section  p {
+		    font-size: 20px;
+			margin: 10px 15px;
+			width: auto;
+			font-family: roboto, sans-serif;
+            			
+		}
+		.mid{
+			text-align: right;
+		}
+		
+			.old{
+				margin: 0 auto;
+				max-width: 100%;
+				vertical-align: middle;
+                display: block;				
+			}
+			
+			.idol{
+				float: left;
+				border-radius: 30px;
+	            max-width: 100%;
+	            margin-top: 15px;
+	            margin-bottom: 20px;
+	            position: static;
+                margin-left: auto;
+	            margin-right: auto;
+			}
+			
+			
+			article div{
+				margin: 30px;
+			}
+			
+		@media (max-width:800px){
+				nav a {
+				width:50%;
+				font-size: 22px;
+				}
+				h1{
+					font-size: 26px;
+				}
+			}
+		@media (max-width:500px){
+				nav a {
+				width:100%;
+				}
+			}
+			
+
+	
+	    footer{
+			height:40px;
+			background-color: springgreen;
+			color:white;
+			line-height: 40px;
+			text-align: center;
+			margin-top: 0px;
+			font-family: 'Bebas Neue', cursive;
+			
+			}
